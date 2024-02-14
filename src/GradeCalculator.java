@@ -20,44 +20,34 @@ public class GradeCalculator {
         else if (inputOfGrade >= 89) {
             //assigns the letter A to grade variable
             Grade = "A-";
-        }
-        else if (inputOfGrade >= 87) {
+        } else if (inputOfGrade >= 87) {
             //assigns the letter A to grade variable
             Grade = "B+";
-        }
-        else if (inputOfGrade >= 82) {
+        } else if (inputOfGrade >= 82) {
             //assigns the letter A to grade variable
             Grade = "B";
-        }
-        else if (inputOfGrade >= 79) {
+        } else if (inputOfGrade >= 79) {
             //assigns the letter A to grade variable
             Grade = "B-";
-        }
-        else if (inputOfGrade >= 77) {
+        } else if (inputOfGrade >= 77) {
             //assigns the letter A to grade variable
             Grade = "C+";
-        }
-        else if (inputOfGrade >= 72) {
+        } else if (inputOfGrade >= 72) {
             //assigns the letter A to grade variable
             Grade = "C";
-        }
-        else if (inputOfGrade >= 69) {
+        } else if (inputOfGrade >= 69) {
             //assigns the letter A to grade variable
             Grade = "C-";
-        }
-        else if (inputOfGrade >= 67) {
+        } else if (inputOfGrade >= 67) {
             //assigns the letter A to grade variable
             Grade = "D+";
-        }
-        else if (inputOfGrade >= 60) {
+        } else if (inputOfGrade >= 60) {
             //assigns the letter A to grade variable
             Grade = "D";
-        }
-        else if (inputOfGrade >= 0) {
+        } else if (inputOfGrade >= 0) {
             //assigns the letter A to grade variable
             Grade = "F";
-        }
-        else {
+        } else {
             Grade = "Error";
         }
         System.out.println("Your grade is " + Grade + ".");
