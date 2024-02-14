@@ -7,7 +7,7 @@ public class GradeCalculator {
         Scanner in = new Scanner(System.in);
         //This asks the user to input their grade
         System.out.print("Please enter your grade: ");
-        //takes in the users name input into a variable called inputOfGrade
+        //takes in the users input into a variable called inputOfGrade
         double inputOfGrade = in.nextDouble();
         //This creates a string that has nothing in it so that later a letter grade can be assigned to it
         String Grade = "";
@@ -18,38 +18,60 @@ public class GradeCalculator {
         }
         //this will use if conditionals to determine the letter grade to a variable called Grade
         else if (inputOfGrade >= 89) {
-            //assigns the letter A to grade variable
+            //assigns the letter A- to grade variable
             Grade = "A-";
-        } else if (inputOfGrade >= 87) {
-            //assigns the letter A to grade variable
+        }
+        //this will use if conditionals to determine the letter grade to a variable called Grade
+        else if (inputOfGrade >= 87) {
+            //assigns the letter B+ to grade variable
             Grade = "B+";
-        } else if (inputOfGrade >= 82) {
-            //assigns the letter A to grade variable
+        }
+        //this will use else if conditionals to determine the letter grade to a variable called Grade
+        else if (inputOfGrade >= 82) {
+            //assigns the letter B to grade variable
             Grade = "B";
-        } else if (inputOfGrade >= 79) {
-            //assigns the letter A to grade variable
+        }
+        //this will use else if conditionals to determine the letter grade to a variable called Grade
+        else if (inputOfGrade >= 79) {
+            //assigns the letter B- to grade variable
             Grade = "B-";
-        } else if (inputOfGrade >= 77) {
-            //assigns the letter A to grade variable
+        }
+        //this will use else if conditionals to determine the letter grade to a variable called Grade
+        else if (inputOfGrade >= 77) {
+            //assigns the letter C+ to grade variable
             Grade = "C+";
-        } else if (inputOfGrade >= 72) {
-            //assigns the letter A to grade variable
+        }
+        //this will use else if conditionals to determine the letter grade to a variable called Grade
+        else if (inputOfGrade >= 72) {
+            //assigns the letter C to grade variable
             Grade = "C";
-        } else if (inputOfGrade >= 69) {
-            //assigns the letter A to grade variable
+        }
+        //this will use else if conditionals to determine the letter grade to a variable called Grade
+        else if (inputOfGrade >= 69) {
+            //assigns the letter C- to grade variable
             Grade = "C-";
-        } else if (inputOfGrade >= 67) {
-            //assigns the letter A to grade variable
+        }
+        //this will use else if conditionals to determine the letter grade to a variable called Grade
+        else if (inputOfGrade >= 67) {
+            //assigns the letter D+ to grade variable
             Grade = "D+";
-        } else if (inputOfGrade >= 60) {
-            //assigns the letter A to grade variable
+        }
+        //this will use else if conditionals to determine the letter grade to a variable called Grade
+        else if (inputOfGrade >= 60) {
+            //assigns the letter D to grade variable
             Grade = "D";
-        } else if (inputOfGrade >= 0) {
-            //assigns the letter A to grade variable
+        }
+        //this will use else if conditionals to determine the letter grade to a variable called Grade
+        else if (inputOfGrade >= 0) {
+            //assigns the letter F to grade variable
             Grade = "F";
-        } else {
+        }
+        //this will use else conditionals to determine the letter grade to a variable called Grade
+        else {
+            //if the user inputted something negative then an error is printed
             Grade = "Error";
         }
+        //prints the letter grade result
         System.out.println("Your grade is " + Grade + ".");
 
     }
